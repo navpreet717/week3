@@ -37,7 +37,8 @@ else if(numSoftware>=100)
 				double finalAmount=subtotal-discountAmount;
 				//show the output
 				System.out.println("Subtotal:$"+subtotal);
-				System.out.println("discount:$"+discount);
+				System.out.println("Discount percent:$"+discount*100+"%");
+				System.out.println("discount:$"+discountAmount);
 				//System.out.println("finalAmount:$"+finalAmount);
 //rounded to 2 decimal points
 				
