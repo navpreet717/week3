@@ -38,8 +38,10 @@ else if(numSoftware>=100)
 				//show the output
 				System.out.println("Subtotal:$"+subtotal);
 				System.out.println("discount:$"+discount);
-				System.out.println("finalAmount:$"+finalAmount);
-
+				//System.out.println("finalAmount:$"+finalAmount);
+//rounded to 2 decimal points
+				
+				System.out.printf("Final price: %.2f",finalAmount);		
 	}
 
 }
